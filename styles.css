@@ -1,0 +1,87 @@
+/* Подключение:
+<link rel="stylesheet" href="https://timoha64.github.io/styles.css">
+*/
+body {font-family: Outfit, Fira Code, Fira Code I, "Exo 2", Source Sans Pro, Inter}
+sq {font-family: square}
+mp1p {font-family: "M PLUS 1p"}
+:target {background-color: rgba(221, 68, 204, 0.5);}
+details summary{display:block}
+a {text-underline-position:under}
+.material-icons {vertical-align:middle;font-size:90%}
+.g1 {text-align:center; font-size:125%}
+.g2 {text-align:center}
+.g3 {vertical-align:super;text-decoration:none;user-select:none}
+.g4 {padding:7px}
+.g5 {text-align:right}
+.g6 {width:30%}
+.g7 {width:70%}
+.g8 {vertical-align: text-top}
+.g9 ::after{content:"Опыление королевских домочадцев в районах культового полумесяца"}
+.g10[open] ::after{content:"Свернуть"}
+g1 {font-weight:bold}
+g2 {text-align:center; float:left; width:50%; margin-top:30px; margin-bottom:30px;}
+g3 {text-align:center; float:right; width:50%; margin-top:30px; margin-bottom:30px;}
+g4 {color:#555555;font-style:italic}
+g5 {border:1px solid black; display:inline-block; background-color: #F7EBDB}
+g6 {font-size:110%}
+g7 {font-style:italic}
+g8 {font-size:200%}
+g9 {font-size:400%; background-color: green}
+g10 {font-size:400%; background-color: red}
+textarea {width:28px; height:15px;vertical-align:middle;background-color:rgba(37, 37, 37, .4);border-radius:3px;overflow:hidden;border-style:none;outline:none;resize:none;padding-top:0px;padding-right:0px;padding-left:3.7px;font-family: Fira Code, Fira Code I, "Exo 2", Source Sans Pro, Inter}
+hr {border:1px solid black}
+table {border-collapse: collapse}
+td {white-space:nowrap; font-size:40%; border:1px solid black}
+.md {list-style-type:disc}
+.mn {list-style-type:none}
+#check:before {
+content: "✓";
+padding-right: 10px;
+color: green;
+}
+#cross:before {
+content: "✕";
+padding-right: 10px;
+color: red;
+}
+/* Шрифты */
+@font-face {
+font-family: Outfit;
+src: url('files/fonts/Outfit.ttf');
+unicode-range: U+33;
+size-adjust: 105%;
+}
+@font-face {
+font-family: square;
+src: url('files/fonts/square.ttf');
+size-adjust: 130%;
+}
+@font-face {
+font-family: "Exo 2";
+src: url('files/fonts/Exo2.ttf');
+unicode-range: U+0410-044F, U+0401, U+0451;
+}
+@font-face {
+font-family: Source Sans Pro;
+src: url('files/fonts/SourceSansPro.ttf');
+unicode-range: U+b1, U+7c, U+a6, U+2016;
+}
+@font-face {
+font-family: Inter;
+src: url('files/fonts/Inter.ttf');
+}
+@font-face {
+font-family: Fira Code;
+src: url('files/fonts/FiraCode.ttf');
+unicode-range: U+6c, U+25e1;
+}
+@font-face {
+font-family: Fira Code I;
+src: url('files/fonts/FiraCode.ttf');
+unicode-range: U+49, U+31, U+30;
+size-adjust: 105.5%;
+}
+@font-face {
+font-family: "M PLUS 1p";
+src: url('files/fonts/MPLUS1p.ttf');
+}
