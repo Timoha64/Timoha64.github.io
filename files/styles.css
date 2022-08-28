@@ -35,7 +35,3 @@ src: url('files/fonts/FiraCode.ttf');
 unicode-range: U+49, U+31, U+30;
 size-adjust: 105.5%;
 }
-@font-face {
-font-family: "M PLUS 1p";
-src: url('files/fonts/MPLUS1p.ttf');
-}
