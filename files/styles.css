@@ -1,1 +1,44 @@
-
+/* Подключение:
+<link rel="stylesheet" href="files/styles.css">
+*/
+body {font-family: Outfit, Fira Code, Fira Code I, "Exo 2", Source Sans Pro, Inter}
+@font-face {
+font-family: Outfit;
+src: url('files/fonts/Outfit.ttf');
+unicode-range: U+33;
+size-adjust: 105%;
+}
+@font-face {
+font-family: square;
+src: url('files/fonts/square.ttf');
+size-adjust: 130%;
+}
+@font-face {
+font-family: "Exo 2";
+src: url('files/fonts/Exo2.ttf');
+unicode-range: U+0410-044F, U+0401, U+0451;
+}
+@font-face {
+font-family: Source Sans Pro;
+src: url('files/fonts/SourceSansPro.ttf');
+unicode-range: U+b1, U+7c, U+a6, U+2016;
+}
+@font-face {
+font-family: Inter;
+src: url('files/fonts/Inter.ttf');
+}
+@font-face {
+font-family: Fira Code;
+src: url('files/fonts/FiraCode.ttf');
+unicode-range: U+6c, U+25e1;
+}
+@font-face {
+font-family: Fira Code I;
+src: url('files/fonts/FiraCode.ttf');
+unicode-range: U+49, U+31, U+30;
+size-adjust: 105.5%;
+}
+@font-face {
+font-family: "M PLUS 1p";
+src: url('files/fonts/MPLUS1p.ttf');
+}
