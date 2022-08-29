@@ -11,6 +11,7 @@ lt {text-decoration:line-through}
 ov {text-decoration:overline}
 sc {font-variant-caps: all-small-caps}
 kn {font-kerning: none}
+tac {display:block;text-align:center}
 :target {background-color: rgba(221, 68, 204, 0.5);}
 details summary{display:block}
 a {text-underline-position:under}
