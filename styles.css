@@ -4,6 +4,11 @@
 body {font-family: Outfit, Fira Code, Fira Code I, "Exo 2", Source Sans Pro, Inter}
 sq {font-family: square}
 mp1p {font-family: "M PLUS 1p"}
+bo {font-weight:bold}
+it {font-style:italic}
+un {text-decoration:underline;text-underline-position:under}
+lt {text-decoration:line-through}
+ov {text-decoration:overline}
 :target {background-color: rgba(221, 68, 204, 0.5);}
 details summary{display:block}
 a {text-underline-position:under}
