@@ -17,6 +17,7 @@ sups {vertical-align:super;font-size:70%}
 subs {vertical-align:sub;font-size:70%}
 hr {border:1px solid black}
 table {border-collapse: collapse}
+.ta {vertical-align:middle;background-color:rgba(37, 37, 37, .4);border-radius:3px;overflow:hidden;border-style:none;outline:none;resize:none;padding-top:0px;padding-right:0px;padding-left:3.7px;font-family: Outfit, Fira Code, Fira Code I, "Exo 2", Source Sans Pro, Inter}
 
 :target {background-color: rgba(221, 68, 204, 0.5);}
 details summary{display:block}
@@ -42,7 +43,6 @@ g7 {font-style:italic}
 g8 {font-size:200%}
 g9 {font-size:400%; background-color: green}
 g10 {font-size:400%; background-color: red}
-textarea {width:28px; height:15px;vertical-align:middle;background-color:rgba(37, 37, 37, .4);border-radius:3px;overflow:hidden;border-style:none;outline:none;resize:none;padding-top:0px;padding-right:0px;padding-left:3.7px;font-family: Fira Code, Fira Code I, "Exo 2", Source Sans Pro, Inter}
 td {white-space:nowrap; font-size:40%; border:1px solid black}
 .md {list-style-type:disc}
 .mn {list-style-type:none}
