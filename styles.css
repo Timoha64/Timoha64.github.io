@@ -13,6 +13,8 @@ sc {font-variant-caps: all-small-caps}
 kn {font-kerning: none}
 tac {display:block;text-align:center}
 tar {display:block;text-align:right}
+sups {vertical-align:super;font-size:70%}
+subs {vertical-align:sub;font-size:70%}
 :target {background-color: rgba(221, 68, 204, 0.5);}
 details summary{display:block}
 a {text-underline-position:under}
