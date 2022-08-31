@@ -47,7 +47,7 @@ g7 {font-style:italic}
 g8 {font-size:200%}
 g9 {font-size:400%; background-color: green}
 g10 {font-size:400%; background-color: red}
-g11 {user-select: contain}
+g11 {display:inline-block;user-select: contain}
 .md {list-style-type:disc}
 .mn {list-style-type:none}
 #check:before {
