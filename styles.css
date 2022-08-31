@@ -21,7 +21,7 @@ td {white-space:nowrap; border:1px solid black}
 /*
 <textarea style="width:px;height:px" class="ta" wrap="off" readonly></textarea>
 */
-.ta {vertical-align:middle;background-color:rgba(37, 37, 37, .4);border-radius:3px;overflow:hidden;border-style:none;outline:none;resize:none;padding-top:0px;padding-right:0px;padding-left:3.7px;font-family: Outfit, Fira Code, Fira Code I, "Exo 2", Source Sans Pro, Inter}
+ta {background-color:rgba(37, 37, 37, .4);border-radius:3px;user-select:all}
 
 :target {background-color: rgba(221, 68, 204, 0.5);}
 details summary{display:block}
