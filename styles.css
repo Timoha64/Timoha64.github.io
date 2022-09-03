@@ -99,3 +99,11 @@ size-adjust: 105.5%;
 font-family: "M PLUS 1p";
 src: url('files/fonts/MPLUS1p.ttf');
 }
+@font-face {
+font-family: Bomber TV;
+src: url('files/fonts/BomberTV.ttf');
+}
+@font-face {
+font-family: Foulis;
+src: url('files/fonts/Foulis.ttf');
+}
