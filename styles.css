@@ -18,7 +18,7 @@ tar {display:block;text-align:right}
 sups {vertical-align:super;font-size:70%}
 subs {vertical-align:sub;font-size:70%}
 hr {border:1px solid black}
-table {border-collapse: collapse}
+table {border-collapse:collapse;display:block;overflow:scroll}
 td {white-space:nowrap; border:1px solid black}
 tai {background-color:rgba(37, 37, 37, .4);border-radius:3px;user-select:all;white-space:pre;display:inline}
 tab {background-color:rgba(37, 37, 37, .4);border-radius:3px;user-select:all;white-space:pre;display:block;overflow:scroll}
