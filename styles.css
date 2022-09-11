@@ -6,6 +6,7 @@ sq {font-family: square}
 mp1p {font-family: "M PLUS 1p"}
 bom {font-family: Bomber TV; font-variant-caps: small-caps}
 fo {font-family: Foulis}
+ne {font-family: Noto Emoji}
 bo {font-weight:bold}
 it {font-style:italic}
 un {text-decoration:underline;text-underline-position:under}
@@ -106,4 +107,8 @@ src: url('files/fonts/BomberTV.otf');
 @font-face {
 font-family: Foulis;
 src: url('files/fonts/Foulis.ttf');
+}
+@font-face {
+font-family: Noto Emoji;
+src: url('files/fonts/NotoEmoji.ttf');
 }
