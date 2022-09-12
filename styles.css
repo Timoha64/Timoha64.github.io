@@ -110,5 +110,5 @@ src: url('files/fonts/Foulis.ttf');
 @font-face {
 font-family: Noto Emoji;
 src: url('files/fonts/NotoEmoji.ttf');
-unicode-range: U+0410-044F, U+0401, U+0451;
+/* unicode-range: U+0410-044F, U+0401, U+0451; */
 }
