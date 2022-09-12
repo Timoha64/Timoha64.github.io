@@ -26,12 +26,13 @@ tab {background-color:rgba(37, 37, 37, .4);border-radius:3px;user-select:all;whi
 deg180 {transform: rotate(180deg);display:inline-block}
 deg90 {transform: rotate(90deg);display:inline-block}
 deg270 {transform: rotate(270deg);display:inline-block}
+:target {background-color: rgba(221, 68, 204, 0.5)}
+a {text-underline-position:under}
 
 emoji {white-space:pre-line}
 
-:target {background-color: rgba(221, 68, 204, 0.5);}
+
 details summary{display:block}
-a {text-underline-position:under}
 .material-icons {vertical-align:middle;font-size:90%}
 .g1 {text-align:center; font-size:125%}
 .g2 {text-align:center}
