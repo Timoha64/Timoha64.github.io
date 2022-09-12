@@ -19,7 +19,10 @@ tar {display:block;text-align:right}
 sups {vertical-align:super;font-size:70%}
 subs {vertical-align:sub;font-size:70%}
 hr {border:1px solid black}
+/*
 table {border-collapse:collapse;display:block;overflow:scroll}
+*/
+table {border-collapse:collapse}
 td {white-space:nowrap; border:1px solid black}
 tai {background-color:rgba(37, 37, 37, .4);border-radius:3px;user-select:all;white-space:pre;display:inline}
 tab {background-color:rgba(37, 37, 37, .4);border-radius:3px;user-select:all;white-space:pre;display:block;overflow:scroll}
@@ -28,7 +31,6 @@ deg90 {transform: rotate(90deg);display:inline-block}
 deg270 {transform: rotate(270deg);display:inline-block}
 .deg270 {transform: rotate(270deg)}
 
-table .table {border-collapse:collapse}
 emoji {white-space:pre-line}
 
 :target {background-color: rgba(221, 68, 204, 0.5);}
