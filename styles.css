@@ -28,6 +28,7 @@ deg90 {transform: rotate(90deg);display:inline-block}
 deg270 {transform: rotate(270deg);display:inline-block}
 .deg270 {transform: rotate(270deg)}
 
+table .table {border-collapse:collapse}
 emoji {white-space:pre-line}
 
 :target {background-color: rgba(221, 68, 204, 0.5);}
