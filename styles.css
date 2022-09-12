@@ -23,7 +23,7 @@ table {border-collapse:collapse;display:block;overflow:scroll}
 td {white-space:nowrap; border:1px solid black}
 tai {background-color:rgba(37, 37, 37, .4);border-radius:3px;user-select:all;white-space:pre;display:inline}
 tab {background-color:rgba(37, 37, 37, .4);border-radius:3px;user-select:all;white-space:pre;display:block;overflow:scroll}
-emoji {white-space:nowrap}
+emoji {white-space:pre-line}
 
 :target {background-color: rgba(221, 68, 204, 0.5);}
 details summary{display:block}
