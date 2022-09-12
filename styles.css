@@ -1,12 +1,11 @@
 /* Подключение:
 <link rel="stylesheet" href="styles.css">
 */
-body {font-family: Outfit, Fira Code, Fira Code I, "Exo 2", Source Sans Pro, Inter}
+body {font-family: Outfit, Fira Code, Fira Code I, "Exo 2", Source Sans Pro, Noto Emoji, Inter}
 sq {font-family: square}
 mp1p {font-family: "M PLUS 1p"}
 bom {font-family: Bomber TV; font-variant-caps: small-caps}
 fo {font-family: Foulis}
-ne {font-family: Noto Emoji}
 bo {font-weight:bold}
 it {font-style:italic}
 un {text-decoration:underline;text-underline-position:under}
