@@ -29,13 +29,14 @@ deg270 {transform: rotate(270deg);display:inline-block}
 :target {background-color: rgba(221, 68, 204, 0.5)}
 a {text-underline-position:under}
 .anchor {vertical-align:super;text-decoration:none;user-select:none}
-
+/* Нумерованные списки (<ol>) */
 @counter-style number_parenthesis {system:fixed;symbols:"1";suffix:") "}
 .number_parenthesis {list-style-type:number_parenthesis}
 @counter-style cyrillic_parenthesis {system:alphabetic;symbols:а б в г д е ё ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я;suffix:") "}
 .cyrillic_parenthesis {list-style-type:cyrillic_parenthesis}
 @counter-style cyrillic_dot {system:alphabetic;symbols:а б в г д е ё ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я;suffix:". "}
 .cyrillic_dot {list-style-type:cyrillic_dot}
+
 /* Списки */
 .md {list-style-type:disc}
 .mn {list-style-type:none}
