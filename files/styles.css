@@ -39,6 +39,9 @@ a {text-underline-position:under}
 /* Маркированные списки (<ul>) */
 .check {list-style-type:"✓ "}
 .cross {list-style-type:"✕ "}
+.bb {list-style-type:"☐ "}
+.bbc {list-style-type:"☑ "}
+.bbx {list-style-type:"☒ "}
 /* Шрифты */
 @font-face {
 font-family: Outfit;
