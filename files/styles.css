@@ -36,20 +36,9 @@ a {text-underline-position:under}
 .cyrillic_parenthesis {list-style-type:cyrillic_parenthesis}
 @counter-style cyrillic_dot {system:alphabetic;symbols:а б в г д е ё ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я;suffix:". "}
 .cyrillic_dot {list-style-type:cyrillic_dot}
-
-/* Списки */
-.md {list-style-type:disc}
-.mn {list-style-type:none}
-#check:before {
-content: "✓";
-padding-right: 10px;
-color: green;
-}
-#cross:before {
-content: "✕";
-padding-right: 10px;
-color: red;
-}
+/* Маркированные списки (<ul>) */
+.check {list-style-type:"✓ "}
+.cross {list-style-type:"✕ "}
 /* Шрифты */
 @font-face {
 font-family: Outfit;
