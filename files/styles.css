@@ -50,56 +50,56 @@ letter-spacing
 .bbx {list-style-type:"☒ "}
 /* Шрифты */
 @font-face {
-font-family: Outfit;
-src: url('/files/fonts/Outfit.ttf');
-unicode-range: U+33;
-size-adjust: 105%;
+font-family:Outfit;
+src:url('/files/fonts/Outfit.ttf');
+unicode-range:U+33;
+size-adjust:105%;
 }
 @font-face {
-font-family: square;
-src: url('/files/fonts/square.ttf');
-size-adjust: 130%;
+font-family:square;
+src:url('/files/fonts/square.ttf');
+size-adjust:130%;
 }
 @font-face {
-font-family: "Exo 2";
-src: url('/files/fonts/Exo2.ttf');
-unicode-range: U+0410-044F, U+0401, U+0451;
+font-family:"Exo 2";
+src:url('/files/fonts/Exo2.ttf');
+unicode-range:U+0410-044F,U+0401,U+0451;
 }
 @font-face {
-font-family: Source Sans Pro;
-src: url('/files/fonts/SourceSansPro.ttf');
-unicode-range: U+b1, U+7c, U+a6, U+2016;
+font-family:Source Sans Pro;
+src:url('/files/fonts/SourceSansPro.ttf');
+unicode-range:U+b1,U+7c,U+a6,U+2016;
 }
 @font-face {
-font-family: Inter;
-src: url('/files/fonts/Inter.ttf');
+font-family:Inter;
+src:url('/files/fonts/Inter.ttf');
 }
 @font-face {
-font-family: Fira Code;
-src: url('/files/fonts/FiraCode.ttf');
-unicode-range: U+6c, U+25e1;
+font-family:Fira Code;
+src:url('/files/fonts/FiraCode.ttf');
+unicode-range:U+6c,U+25e1;
 }
 @font-face {
-font-family: Fira Code I;
-src: url('/files/fonts/FiraCode.ttf');
-unicode-range: U+49, U+31, U+30;
-size-adjust: 105.5%;
+font-family:Fira Code I;
+src:url('/files/fonts/FiraCode.ttf');
+unicode-range:U+49,U+31,U+30;
+size-adjust:105.5%;
 }
 @font-face {
-font-family: "M PLUS 1p";
-src: url('/files/fonts/MPLUS1p.ttf');
+font-family:"M PLUS 1p";
+src:url('/files/fonts/MPLUS1p.ttf');
 }
 @font-face {
-font-family: Bomber TV;
-src: url('/files/fonts/BomberTV.otf');
+font-family:Bomber TV;
+src:url('/files/fonts/BomberTV.otf');
 }
 @font-face {
-font-family: Foulis;
-src: url('/files/fonts/Foulis.ttf');
+font-family:Foulis;
+src:url('/files/fonts/Foulis.ttf');
 }
 @font-face {
-font-family: Noto Emoji;
-src: url('/files/fonts/NotoEmoji.ttf');
-unicode-range: U+2734,U+2139,U+2b05, U+2b06, U+2b07, U+27a1,U+271d, U+2626;
+font-family:Noto Emoji;
+src:url('/files/fonts/NotoEmoji.ttf');
+unicode-range:U+2734,U+2139,U+2b05,U+2b06,U+2b07,U+27a1,U+271d,U+2626;
 }
 
