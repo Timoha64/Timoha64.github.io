@@ -88,7 +88,7 @@ size-adjust:105.5%;
 @font-face {
 font-family:"M PLUS 1p";
 src:url('/files/fonts/MPLUS1p.ttf');
-unicode-range:U+2610-2612;
+unicode-range:U+2610-2612,U+2715;
 }
 @font-face {
 font-family:Bomber TV;
