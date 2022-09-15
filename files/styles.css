@@ -2,9 +2,8 @@
 <link rel="stylesheet" href="/files/styles.css">
 */
 body {font-family:Outfit,Fira Code,Fira Code I,"Exo 2",Source Sans Pro,Noto Emoji,Inter}
-chem .katex {font-family:Outfit,Fira Code,Fira Code I,"Exo 2",Source Sans Pro,Noto Emoji,Inter}
+chem .katex {font-family:Outfit,Fira Code,Fira Code I,"Exo 2",Source Sans Pro,Noto Emoji,"M PLUS 1p",Inter}
 sq {font-family:square}
-mp1p {font-family:"M PLUS 1p"}
 bom {font-family:Bomber TV;font-variant-caps:small-caps}
 fo {font-family:Foulis}
 bo {font-weight:bold}
@@ -89,6 +88,7 @@ size-adjust:105.5%;
 @font-face {
 font-family:"M PLUS 1p";
 src:url('/files/fonts/MPLUS1p.ttf');
+unicode-range:U+2610,U+2611,U+2612;
 }
 @font-face {
 font-family:Bomber TV;
