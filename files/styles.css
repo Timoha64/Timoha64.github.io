@@ -28,7 +28,7 @@ deg270 {transform:rotate(270deg);display:inline-block}
 .material-icons {vertical-align:middle;font-size:90%}
 a {text-underline-position:under}
 .anchor {vertical-align:super;text-decoration:none;user-select:none}
-.vat td {vertical-align:top}
+.vat,[class=vat] td {vertical-align:top}
 /*
 Интерлиньяж:
 line-height
