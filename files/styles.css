@@ -33,6 +33,11 @@ a {text-underline-position:under}
 line-height
 Межбуквенное расстояние:
 letter-spacing
+
+border-bottom-style:none
+border-right-style:none
+border-top-style:none
+border-left-style:none
 */
 /* Нумерованные списки (<ol>) */
 @counter-style number_parenthesis {system:fixed;symbols:"1";suffix:") "}
