@@ -1,8 +1,8 @@
 /* Подключение:
 <link rel="stylesheet" href="/files/styles.css">
 */
-body {font-family:Outfit,Fira Code,Fira Code I,"Exo 2",Source Sans Pro,Noto Emoji,"M PLUS 1p",Inter}
-chem .katex {font-family:Outfit,Fira Code,Fira Code I,"Exo 2",Source Sans Pro,Noto Emoji,"M PLUS 1p",Inter}
+body,chem .katex {font-family:Outfit,Fira Code,Fira Code I,"Exo 2",Source Sans Pro,Noto Emoji,"M PLUS 1p",Inter}
+/* chem .katex {font-family:Outfit,Fira Code,Fira Code I,"Exo 2",Source Sans Pro,Noto Emoji,"M PLUS 1p",Inter} */
 sq {font-family:square}
 bom {font-family:Bomber TV;font-variant-caps:small-caps}
 fo {font-family:Foulis}
