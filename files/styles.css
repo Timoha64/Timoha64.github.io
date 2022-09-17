@@ -41,6 +41,8 @@ border-top-style:none
 border-left-style:none
 */
 /* Нумерованные списки (<ol>) */
+@counter-style number_dot {system:fixed;symbols:⒈ ⒉ ⒊ ⒋ ⒌ ⒍ ⒎ ⒏ ⒐ ⒑ ⒒ ⒓ ⒔ ⒕ ⒖ ⒗ ⒘ ⒙ ⒚ ⒛;suffix:" "}
+.number_dot {list-style-type:number_dot}
 @counter-style number_parenthesis {system:fixed;symbols:"1";suffix:") "}
 .number_parenthesis {list-style-type:number_parenthesis}
 @counter-style cyrillic_parenthesis {system:alphabetic;symbols:а б в г д е ё ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я;suffix:") "}
