@@ -49,6 +49,8 @@ letter-spacing
 @counter-style cyrillic_dot {system:alphabetic;symbols:а б в г д е ё ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я;suffix:". "}
 .cyrillic_dot {list-style-type:cyrillic_dot}
 /* Маркированные списки (<ul>) */
+.mn {list-style-type:none}
+.md {list-style-type:disc}
 .check {list-style-type:"✓ "}
 .cross {list-style-type:"✕ "}
 .bb {list-style-type:"☐ "}
