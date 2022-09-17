@@ -108,4 +108,7 @@ font-family:Noto Emoji;
 src:url('/files/fonts/NotoEmoji.ttf');
 unicode-range:U+2734,U+2139,U+2b05,U+2b06,U+2b07,U+27a1,U+271d,U+2626;
 }
-
+@font-face {
+font-family:Noto Sans Japanese;
+src:url('/files/fonts/NotoSansJP.otf');
+}
