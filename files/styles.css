@@ -26,13 +26,13 @@ tab {background-color:rgba(37,37,37,.4);border-radius:3px;user-select:all;white-
 deg180 {transform:rotate(180deg);display:inline-block}
 deg90 {transform:rotate(90deg);display:inline-block}
 deg270 {transform:rotate(270deg);display:inline-block}
+mi {transform:scaleX(-1);display:inline-block}
 :target {background-color:rgba(221,68,204,.5)}
 .material-icons {vertical-align:middle;font-size:90%}
 a {text-underline-position:under}
 .anchor {vertical-align:super;text-decoration:none;user-select:none}
 .vat,[class=vat] td {vertical-align:top}
 .toc {display:block;border:1px solid black;background-color:#F7EBDB;padding-top:7px;padding-bottom:7px}
-mi {transform:scaleX(-1)}
 red {color:red}
 /*
 Интерлиньяж:
