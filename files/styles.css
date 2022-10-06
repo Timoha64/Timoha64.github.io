@@ -1,7 +1,7 @@
 /* Подключение:
 <link rel="stylesheet" href="/files/styles.css">
 */
-body,chem .katex {font-feature-settings:"cv14";font-family:Outfit,Fira Code,Fira Code I,"Exo 2",Source Sans Pro,Noto Emoji,"M PLUS 1p",Noto Sans Japanese,Inter}
+body,chem .katex {font-family:Outfit,Fira Code,Fira Code I,"Exo 2",Source Sans Pro,Noto Emoji,"M PLUS 1p",Noto Sans Japanese,Inter}
 sq {font-family:square}
 bom {font-family:Bomber TV;font-variant-caps:small-caps}
 fo {font-family:Foulis}
@@ -61,14 +61,12 @@ letter-spacing
 .bbc {list-style-type:"☑ "}
 .bbx {list-style-type:"☒ "}
 /* Шрифты */
-/*
 @font-face {
 font-family:Outfit;
 src:url('/files/fonts/Outfit.ttf');
 unicode-range:U+33;
 size-adjust:105%;
 }
-*/
 @font-face {
 font-family:square;
 src:url('/files/fonts/square.ttf');
@@ -96,7 +94,7 @@ unicode-range:U+6c,U+25e1,U+3bd;
 @font-face {
 font-family:Fira Code I;
 src:url('/files/fonts/FiraCode.ttf');
-unicode-range:U+33,U+49,U+31,U+30;
+unicode-range:U+49,U+31,U+30;
 size-adjust:105.5%;
 }
 @font-face {
