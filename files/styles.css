@@ -1,7 +1,7 @@
 /* Подключение:
 <link rel="stylesheet" href="/files/styles.css">
 */
-body,chem .katex {font-family:Bandera Pro,Outfit,Fira Code,Fira Code I,"Exo 2",Source Sans Pro,Noto Emoji,"M PLUS 1p",Noto Sans Japanese,Inter}
+body,chem .katex {font-family:Bandera Pro,Bandera Pro g,Outfit,Fira Code,Fira Code I,"Exo 2",Source Sans Pro,Noto Emoji,"M PLUS 1p",Noto Sans Japanese,Inter}
 sq {font-family:square}
 bom {font-family:Bomber TV;font-variant-caps:small-caps}
 fo {font-family:Foulis}
@@ -134,3 +134,8 @@ unicode-range:U+67;
 size-adjust:89%;
 }
 */
+@font-face {
+font-family:Bandera Pro g;
+src:url('/files/fonts/BanderaPro.ttf');
+unicode-range:U+67;
+}
