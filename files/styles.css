@@ -42,6 +42,7 @@ details[open] summary::before {content:"Скрыть:[";font-style:italic}
 details summary::after {content:"]";font-style:italic}
 details summary {list-style-type:"\27A1"}
 details[open] summary {list-style-type:"\2B07"}
+.ti {text-indent:20px}
 red {color:red}
 /*
 Интерлиньяж:
