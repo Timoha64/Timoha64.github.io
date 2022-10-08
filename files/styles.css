@@ -38,10 +38,10 @@ tx3_5 {transform:translateX(-3.5px);display:inline-block}
 tx6 {transform:translateX(-6px);display:inline-block}
 tx8 {transform:translateX(-8px);display:inline-block}
 details summary::before {content:"Показать:[";font-style:italic}
-details summary[open]::before {content:"Скрыть:[";font-style:italic}
+details[open] summary::before {content:"Скрыть:[";font-style:italic}
 details summary::after {content:"]";font-style:italic}
 details summary {list-style-type:"\27A1"}
-details summary[open] {list-style-type:"\2B07"}
+details[open] summary {list-style-type:"\2B07"}
 red {color:red}
 /*
 Интерлиньяж:
