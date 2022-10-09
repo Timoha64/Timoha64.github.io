@@ -34,6 +34,7 @@ a {text-underline-position:under}
 .vat,[class=vat] td {vertical-align:top}
 .toc {display:block;border:1px solid black;background-color:#F7EBDB;padding-top:7px;padding-bottom:7px}
 .it {height:1ex}
+.wspl {white-space:pre-line}
 tx3_5 {transform:translateX(-3.5px);display:inline-block}
 tx6 {transform:translateX(-6px);display:inline-block}
 tx8 {transform:translateX(-8px);display:inline-block}
