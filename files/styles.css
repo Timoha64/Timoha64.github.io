@@ -59,8 +59,8 @@ letter-spacing
 @counter-style number_circled {system:fixed;symbols:① ② ③ ④ ⑤ ⑥ ⑦ ⑧ ⑨ ⑩ ⑪ ⑫ ⑬ ⑭ ⑮ ⑯ ⑰ ⑱ ⑲ ⑳ ㉑ ㉒ ㉓ ㉔ ㉕ ㉖ ㉗ ㉘ ㉙ ㉚ ㉛ ㉜ ㉝ ㉞ ㉟ ㊱ ㊲ ㊳ ㊴ ㊵ ㊶ ㊷ ㊸ ㊹ ㊺ ㊻ ㊼ ㊽ ㊾ ㊿;suffix:" "}
 .number_circled {list-style-type:number_circled}
 @counter-style number_dot {system:fixed;symbols:⒈ ⒉ ⒊ ⒋ ⒌ ⒍ ⒎ ⒏ ⒐ ⒑ ⒒ ⒓ ⒔ ⒕ ⒖ ⒗ ⒘ ⒙ ⒚ ⒛;suffix:" ";range:infinite 20}
-@counter-style number_dot {suffix:". ";range:21 infinite}
-.number_dot {list-style-type:number_dot}
+@counter-style number_dot_2 {suffix:". ";range:21 infinite}
+.number_dot {list-style-type:number_dot,number_dot_2}
 @counter-style number_parenthesis {system:fixed;symbols:"1";suffix:") "}
 .number_parenthesis {list-style-type:number_parenthesis}
 @counter-style cyrillic_parenthesis {system:alphabetic;symbols:а б в г д е ё ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я;suffix:") "}
