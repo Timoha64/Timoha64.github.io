@@ -45,6 +45,7 @@ details summary::after {content:"]";font-style:italic}
 details summary {list-style-type:"\27A1"}
 details[open] summary {list-style-type:"\2B07"}
 .ti {text-indent:20px}
+nw {white-space:nowrap}
 red {color:red}
 blu {color:blue}
 gre {color:green}
