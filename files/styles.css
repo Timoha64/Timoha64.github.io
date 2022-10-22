@@ -3,6 +3,17 @@
 */
 body,chem .katex {font-family:Bandera Pro,Fira Code,Fira Code I,"Exo 2",Source Sans Pro,Noto Emoji,"M PLUS 1p",Noto Sans Japanese,Inter}
 body {word-break:break-word}
+hr {border:1px solid black}
+table {border-collapse:collapse;display:block;overflow:scroll}
+td {white-space:nowrap;border:1px solid black}
+:target {background-color:rgba(221,68,204,.5)}
+.material-icons {vertical-align:middle;font-size:90%}
+a {text-underline-position:under}
+details summary::before {content:"Показать:[";font-style:italic}
+details[open] summary::before {content:"Скрыть:[";font-style:italic}
+details summary::after {content:"]";font-style:italic}
+details summary {list-style-type:"\27A1"}
+details[open] summary {list-style-type:"\2B07"}
 sq {font-family:square}
 bom {font-family:Bomber TV;font-variant-caps:small-caps}
 ou {font-family:Outfit}
@@ -19,18 +30,12 @@ tac {display:block;text-align:center}
 tar {display:block;text-align:right}
 sups {vertical-align:super}
 subs {vertical-align:sub}
-hr {border:1px solid black}
-table {border-collapse:collapse;display:block;overflow:scroll}
-td {white-space:nowrap;border:1px solid black}
 tai {background-color:rgba(37,37,37,.4);border-radius:3px;user-select:all;white-space:pre;display:inline}
 tab {background-color:rgba(37,37,37,.4);border-radius:3px;user-select:all;white-space:pre;display:block;overflow:scroll}
 deg180 {transform:rotate(180deg);display:inline-block}
 deg90 {transform:rotate(90deg);display:inline-block}
 deg270 {transform:rotate(270deg);display:inline-block}
 mi {transform:scaleX(-1);display:inline-block}
-:target {background-color:rgba(221,68,204,.5)}
-.material-icons {vertical-align:middle;font-size:90%}
-a {text-underline-position:under}
 .anchor {vertical-align:super;text-decoration:none;user-select:none}
 .vat,[class=vat] td {vertical-align:top}
 .toc {display:block;border:1px solid black;background-color:#F7EBDB;padding-top:7px;padding-bottom:7px}
@@ -43,11 +48,6 @@ height:1ex;vertical-align:middle
 tx3_5 {transform:translateX(-3.5px);display:inline-block}
 tx6 {transform:translateX(-6px);display:inline-block}
 tx8 {transform:translateX(-8px);display:inline-block}
-details summary::before {content:"Показать:[";font-style:italic}
-details[open] summary::before {content:"Скрыть:[";font-style:italic}
-details summary::after {content:"]";font-style:italic}
-details summary {list-style-type:"\27A1"}
-details[open] summary {list-style-type:"\2B07"}
 .ti {text-indent:20px}
 nw {white-space:nowrap}
 red {color:red}
