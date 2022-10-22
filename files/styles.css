@@ -22,14 +22,14 @@ it {font-style:italic}
 un {text-decoration:underline;text-underline-position:under}
 lt {text-decoration:line-through}
 ov {text-decoration:overline}
+sups {vertical-align:super}
+subs {vertical-align:sub}
 sc {font-variant-caps:all-small-caps}
 kn {font-kerning:none}
 hl {font-size:200%}
 hc {display:block;text-align:center;font-size:200%}
 tac {display:block;text-align:center}
 tar {display:block;text-align:right}
-sups {vertical-align:super}
-subs {vertical-align:sub}
 tai {background-color:rgba(37,37,37,.4);border-radius:3px;user-select:all;white-space:pre;display:inline}
 tab {background-color:rgba(37,37,37,.4);border-radius:3px;user-select:all;white-space:pre;display:block;overflow:scroll}
 deg180 {transform:rotate(180deg);display:inline-block}
@@ -42,8 +42,6 @@ mi {transform:scaleX(-1);display:inline-block}
 /*
 height:1ex;vertical-align:middle
 */
-.ma ::marker {content:counters(list-item,'.')' '}
-.ma li {list-style-position:inside}
 .wspl {white-space:pre-line}
 tx3_5 {transform:translateX(-3.5px);display:inline-block}
 tx6 {transform:translateX(-6px);display:inline-block}
@@ -71,6 +69,8 @@ letter-spacing
 .cyrillic_parenthesis {list-style-type:cyrillic_parenthesis}
 @counter-style cyrillic_dot {system:alphabetic;symbols:а б в г д е ё ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я;suffix:". "}
 .cyrillic_dot {list-style-type:cyrillic_dot}
+.ma ::marker {content:counters(list-item,'.')' '}
+.ma li {list-style-position:inside}
 /* Маркированные списки (<ul>) */
 .mn {list-style-type:none}
 .md {list-style-type:disc}
