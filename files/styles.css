@@ -5,7 +5,6 @@ body,chem .katex {font-family:Bandera Pro,Fira Code,Fira Code I,"Exo 2",Source S
 body {word-break:break-word}
 sq {font-family:square}
 bom {font-family:Bomber TV;font-variant-caps:small-caps}
-fo {font-family:Foulis}
 ou {font-family:Outfit}
 bo {font-weight:bold}
 it {font-style:italic}
@@ -125,10 +124,6 @@ unicode-range:U+214b,U+33,U+2610-2612,U+2715,U+24ea,U+2460-2473,U+3251-325f,U+32
 @font-face {
 font-family:Bomber TV;
 src:url('/files/fonts/BomberTV.otf');
-}
-@font-face {
-font-family:Foulis;
-src:url('/files/fonts/Foulis.ttf');
 }
 @font-face {
 font-family:Noto Emoji;
