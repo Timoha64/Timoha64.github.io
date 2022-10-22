@@ -37,6 +37,8 @@ a {text-underline-position:under}
 /*
 height:1ex;vertical-align:middle
 */
+.ma ::marker {content:counters(list-item,'.')' '}
+.ma li {list-style-position:inside}
 .wspl {white-space:pre-line}
 tx3_5 {transform:translateX(-3.5px);display:inline-block}
 tx6 {transform:translateX(-6px);display:inline-block}
