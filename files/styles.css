@@ -79,7 +79,7 @@ letter-spacing
 .bb {list-style-type:"☐ "}
 .bbc {list-style-type:"☑ "}
 .bbx {list-style-type:"☒ "}
-.cl {list-style-type:"\1f12f\ "}
+.cl {list-style-type:"\1f12f"}
 /* Шрифты */
 @font-face {
 font-family:Outfit;
