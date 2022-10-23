@@ -48,18 +48,6 @@ tx6 {transform:translateX(-6px);display:inline-block}
 tx8 {transform:translateX(-8px);display:inline-block}
 .ti {text-indent:20px}
 nw {white-space:nowrap}
-red {color:red}
-blu {color:blue}
-gre {color:green}
-yel {color:yellow}
-bcred {background-color:red}
-bcblu {background-color:blue}
-bcgre {background-color:green}
-bcyel {background-color:yellow}
-bored {border:1px solid red}
-boblu {border:1px solid blue}
-bogre {border:1px solid green}
-boyel {border:1px solid yellow}
 /*
 Интерлиньяж:
 line-height
