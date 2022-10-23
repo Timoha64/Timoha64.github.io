@@ -49,8 +49,8 @@ bowhi {border:1px solid white}
 bogre {border:1px solid green}
 boyel {border:1px solid yellow}
 kn {font-kerning:none}
-deg180 {transform:rotate(180deg);display:inline-block}
 deg90 {transform:rotate(90deg);display:inline-block}
+deg180 {transform:rotate(180deg);display:inline-block}
 deg270 {transform:rotate(270deg);display:inline-block}
 mi {transform:scaleX(-1);display:inline-block}
 .anchor {vertical-align:super;text-decoration:none;user-select:none}
