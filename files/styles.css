@@ -3,6 +3,9 @@
 */
 body,chem .katex {font-family:Bandera Pro,Fira Code,Fira Code I,"Exo 2",Source Sans Pro,Noto Emoji,"M PLUS 1p",Noto Sans Japanese,Inter}
 body {word-break:break-word}
+tx3_5 {transform:translateX(-3.5px);display:inline-block}
+tx6 {transform:translateX(-6px);display:inline-block}
+tx8 {transform:translateX(-8px);display:inline-block}
 hr {border:1px solid black}
 table {border-collapse:collapse;display:block;overflow:scroll}
 td {white-space:nowrap;border:1px solid black}
@@ -58,9 +61,6 @@ mi {transform:scaleX(-1);display:inline-block}
 .vat,[class=vat] td {vertical-align:top}
 .toc {display:block;border:1px solid black;background-color:#F7EBDB;padding-top:7px;padding-bottom:7px}
 .wspl {white-space:pre-line}
-tx3_5 {transform:translateX(-3.5px);display:inline-block}
-tx6 {transform:translateX(-6px);display:inline-block}
-tx8 {transform:translateX(-8px);display:inline-block}
 .ti {text-indent:20px}
 nw {white-space:nowrap}
 /*
