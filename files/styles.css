@@ -56,6 +56,10 @@ bcred {background-color:red}
 bcblu {background-color:blue}
 bcgre {background-color:green}
 bcyel {background-color:yellow}
+bored {border:1px solid red}
+boblu {border:1px solid blue}
+bogre {border:1px solid green}
+boyel {border:1px solid yellow}
 /*
 Интерлиньяж:
 line-height
