@@ -57,7 +57,7 @@ deg180 {transform:rotate(180deg);display:inline-block}
 deg270 {transform:rotate(270deg);display:inline-block}
 mi {transform:scaleX(-1);display:inline-block}
 .it {height:1ex;vertical-align:middle}
-.ti {text-indent:20px}
+ti {text-indent:30px;display:inline-block}
 .wspl {white-space:pre-line}
 nw {white-space:nowrap}
 .anchor {vertical-align:super;text-decoration:none;user-select:none}
