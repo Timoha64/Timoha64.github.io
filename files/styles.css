@@ -30,6 +30,24 @@ tac {display:block;text-align:center}
 tar {display:block;text-align:right}
 tab {background-color:rgba(37,37,37,.4);border-radius:3px;user-select:all;white-space:pre;display:block;overflow:scroll}
 tai {background-color:rgba(37,37,37,.4);border-radius:3px;user-select:all;white-space:pre;display:inline}
+red {color:red}
+blu {color:blue}
+bla {color:black}
+whi {color:white}
+gre {color:green}
+yel {color:yellow}
+bcred {background-color:red}
+bcblu {background-color:blue}
+bcbla {background-color:black}
+bcwhi {background-color:white}
+bcgre {background-color:green}
+bcyel {background-color:yellow}
+bored {border:1px solid red}
+boblu {border:1px solid blue}
+bobla {border:1px solid black}
+bowhi {border:1px solid white}
+bogre {border:1px solid green}
+boyel {border:1px solid yellow}
 sc {font-variant-caps:all-small-caps}
 kn {font-kerning:none}
 deg180 {transform:rotate(180deg);display:inline-block}
