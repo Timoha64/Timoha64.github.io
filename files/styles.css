@@ -22,8 +22,8 @@ it {font-style:italic}
 un {text-decoration:underline;text-underline-position:under}
 lt {text-decoration:line-through}
 ov {text-decoration:overline}
-sups {vertical-align:super}
 subs {vertical-align:sub}
+sups {vertical-align:super}
 sc {font-variant-caps:all-small-caps}
 kn {font-kerning:none}
 hl {font-size:200%}
