@@ -28,8 +28,8 @@ hl {font-size:200%}
 hc {display:block;text-align:center;font-size:200%}
 tac {display:block;text-align:center}
 tar {display:block;text-align:right}
-tai {background-color:rgba(37,37,37,.4);border-radius:3px;user-select:all;white-space:pre;display:inline}
 tab {background-color:rgba(37,37,37,.4);border-radius:3px;user-select:all;white-space:pre;display:block;overflow:scroll}
+tai {background-color:rgba(37,37,37,.4);border-radius:3px;user-select:all;white-space:pre;display:inline}
 sc {font-variant-caps:all-small-caps}
 kn {font-kerning:none}
 deg180 {transform:rotate(180deg);display:inline-block}
