@@ -58,11 +58,11 @@ deg270 {transform:rotate(270deg);display:inline-block}
 mi {transform:scaleX(-1);display:inline-block}
 .it {height:1ex;vertical-align:middle}
 ti {text-indent:30px;display:inline-block}
-.wspl {white-space:pre-line}
+wspl {white-space:pre-line}
 nw {white-space:nowrap}
 .anchor {vertical-align:super;text-decoration:none;user-select:none}
 .vat,[class=vat] td {vertical-align:top}
-.toc {display:block;border:1px solid black;background-color:#F7EBDB;padding-top:7px;padding-bottom:7px}
+toc {display:block;border:1px solid black;background-color:#F7EBDB;padding-top:7px;padding-bottom:7px}
 /*
 Интерлиньяж:
 line-height
