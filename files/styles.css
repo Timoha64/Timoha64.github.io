@@ -30,6 +30,7 @@ sups {vertical-align:super}
 hl {font-size:200%}
 hc {display:block;text-align:center;font-size:200%}
 tac {display:block;text-align:center}
+.tac,[class=tac] td {text-align:center}
 tar {display:block;text-align:right}
 tab {background-color:rgba(37,37,37,.4);border-radius:3px;user-select:all;white-space:pre;display:block;overflow:scroll}
 tai {background-color:rgba(37,37,37,.4);border-radius:3px;user-select:all;white-space:pre;display:inline}
