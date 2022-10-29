@@ -85,7 +85,7 @@ letter-spacing
 .ma li {list-style-position:inside}
 /* Маркированные списки (<ul>) */
 .mn {list-style-type:none}
-.md {list-style-type:disc}
+.md,[class=md] li {list-style-type:disc}
 .check {list-style-type:"✓ "}
 .cross {list-style-type:"✕ "}
 .bb {list-style-type:"☐ "}
