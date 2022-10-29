@@ -84,8 +84,8 @@ letter-spacing
 .ma ::marker {content:counters(list-item,'.')' '}
 .ma li {list-style-position:inside}
 /* Маркированные списки (<ul>) */
-.mn,[class=mn] li {list-style-type:none}
-.md,[class=md] li {list-style-type:disc}
+.mn,ul[class=mn] li {list-style-type:none}
+.md,ul[class=md] li {list-style-type:disc}
 .check {list-style-type:"✓ "}
 .cross {list-style-type:"✕ "}
 .bb {list-style-type:"☐ "}
