@@ -86,12 +86,12 @@ letter-spacing
 /* Маркированные списки (<ul>) */
 .mn,ul[class=mn] li {list-style-type:none}
 .md,ul[class=md] li {list-style-type:disc}
-.check {list-style-type:"✓ "}
-.cross {list-style-type:"✕ "}
-.bb {list-style-type:"☐ "}
-.bbc {list-style-type:"☑ "}
-.bbx {list-style-type:"☒ "}
-.cl {list-style-type:"\1f12f"}
+.check,ul[class=check] li {list-style-type:"✓ "}
+.cross,ul[class=cross] li {list-style-type:"✕ "}
+.bb,ul[class=bb] li {list-style-type:"☐ "}
+.bbc,ul[class=bbc] li {list-style-type:"☑ "}
+.bbx,ul[class=bbx] li {list-style-type:"☒ "}
+.cl,ul[class=cl] li {list-style-type:"\1f12f"}
 /* Шрифты */
 @font-face {
 font-family:Outfit;
