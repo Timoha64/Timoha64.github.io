@@ -75,7 +75,7 @@ toc {display:block;border:1px solid black;background-color:#F7EBDB;padding-top:7
 .cl,ul[class=cl] li {list-style-type:"\1f12f"}
 /* Нумерованные списки (<ol>) */
 @counter-style number_dot {system:fixed;symbols:⒈ ⒉ ⒊ ⒋ ⒌ ⒍ ⒎ ⒏ ⒐ ⒑ ⒒ ⒓ ⒔ ⒕ ⒖ ⒗ ⒘ ⒙ ⒚ ⒛;suffix:" "}
-.number_dot {list-style-type:number_dot}
+.number_dot,[class=number_dot] li {list-style-type:number_dot}
 @counter-style number_circled {system:fixed;symbols:① ② ③ ④ ⑤ ⑥ ⑦ ⑧ ⑨ ⑩ ⑪ ⑫ ⑬ ⑭ ⑮ ⑯ ⑰ ⑱ ⑲ ⑳ ㉑ ㉒ ㉓ ㉔ ㉕ ㉖ ㉗ ㉘ ㉙ ㉚ ㉛ ㉜ ㉝ ㉞ ㉟ ㊱ ㊲ ㊳ ㊴ ㊵ ㊶ ㊷ ㊸ ㊹ ㊺ ㊻ ㊼ ㊽ ㊾ ㊿;suffix:" "}
 .number_circled {list-style-type:number_circled}
 @counter-style number_parenthesis {system:fixed;symbols:"1";suffix:") "}
