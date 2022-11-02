@@ -86,12 +86,6 @@ toc {display:block;border:1px solid black;background-color:#F7EBDB;padding-top:7
 .cyrillic_dot {list-style-type:cyrillic_dot}
 .ma ::marker {content:counters(list-item,'.')' '}
 .ma li {list-style-position:inside}
-/*
-Интерлиньяж:
-line-height
-Трекинг:
-letter-spacing
-*/
 /* Шрифты */
 @font-face {
 font-family:Outfit;
