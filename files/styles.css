@@ -24,7 +24,7 @@ bu,.bu {user-select:none;background-color:#FFC107;padding:5px;border-radius:5px;
 .rb {border-style:solid none none solid}
 .b {border-style:solid solid none solid}
 .bl {border-style:solid solid none none}
-.lt {border-style:none solid solid none}
+.tl {border-style:none solid solid none}
 
 sq {font-family:square}
 bom {font-family:Bomber TV;font-variant-caps:small-caps}
