@@ -20,7 +20,7 @@ bu,.bu {user-select:none;background-color:#FFC107;padding:5px;border-radius:5px;
 
 .t {border-style:none solid solid solid}
 .tr {border-style:none none solid solid}
-.trb {border-style:}
+.trb {border-style:none none none solid}
 .rb {border-style:}
 .b {border-style:}
 .bl {border-style:}
