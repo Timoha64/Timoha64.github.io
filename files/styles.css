@@ -124,7 +124,7 @@ src:url('/files/fonts/Inter.ttf');
 @font-face {
 font-family:Fira Code;
 src:url('/files/fonts/FiraCode.ttf');
-unicode-range:U+6c,U+25e1;
+unicode-range:U+6c,U+25e1,U+FB01;
 }
 @font-face {
 font-family:Fira Code I;
