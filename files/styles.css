@@ -23,7 +23,7 @@ bu,.bu {user-select:none;background-color:#FFC107;padding:5px;border-radius:5px;
 .trb {border-style:none none none solid}
 .rb {border-style:solid none none solid}
 .b {border-style:solid solid none solid}
-.bl {border-style:}
+.bl {border-style:solid solid none none}
 .lt {border-style:}
 
 sq {font-family:square}
