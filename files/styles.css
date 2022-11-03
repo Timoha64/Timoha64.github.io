@@ -18,7 +18,7 @@ details summary {list-style-type:"\27A1"}
 details[open] summary {list-style-type:"\2B07"}
 bu,.bu {user-select:none;background-color:#FFC107;padding:5px;border-radius:5px;display:inline-block;text-decoration:none;color:black;cursor:pointer}
 
-.t {border-style:}
+.t {border-style:none solid solid solid}
 .tr {border-style:}
 .trb {border-style:}
 .rb {border-style:}
