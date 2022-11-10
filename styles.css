@@ -89,63 +89,63 @@ toc {display:block;border:1px solid black;background-color:#F7EBDB;padding-top:7
 /* Шрифты */
 @font-face {
 font-family:Outfit;
-src:url('/files/fonts/Outfit.ttf');
+src:url('/directories/files/fonts/Outfit.ttf');
 size-adjust:105%;
 }
 @font-face {
 font-family:square;
-src:url('/files/fonts/square.ttf');
+src:url('/directories/files/fonts/square.ttf');
 size-adjust:130%;
 }
 @font-face {
 font-family:"Exo 2";
-src:url('/files/fonts/Exo2.ttf');
+src:url('/directories/files/fonts/Exo2.ttf');
 unicode-range:U+0410-044F,U+0401,U+0451;
 size-adjust:105.4%;
 }
 @font-face {
 font-family:Source Sans Pro;
-src:url('/files/fonts/SourceSansPro.ttf');
+src:url('/directories/files/fonts/SourceSansPro.ttf');
 unicode-range:U+bd,U+2153,U+bc,U+2155,U+2159,U+2150,U+215b,U+2151,U+2152,U+2154,U+2156,U+be,U+2157,U+215c,U+2158,U+215a,U+215d,U+215e,U+2044,U+2189,U+7c,U+a6,U+2016;
 }
 @font-face {
 font-family:Inter;
-src:url('/files/fonts/Inter.ttf');
+src:url('/directories/files/fonts/Inter.ttf');
 }
 @font-face {
 font-family:Fira Code;
-src:url('/files/fonts/FiraCode.ttf');
+src:url('/directories/files/fonts/FiraCode.ttf');
 unicode-range:U+6c,U+25e1,U+FB01;
 }
 @font-face {
 font-family:Fira Code I;
-src:url('/files/fonts/FiraCode.ttf');
+src:url('/directories/files/fonts/FiraCode.ttf');
 unicode-range:U+49,U+31,U+30;
 size-adjust:105.5%;
 }
 @font-face {
 font-family:"M PLUS 1p";
-src:url('/files/fonts/MPLUS1p.ttf');
+src:url('/directories/files/fonts/MPLUS1p.ttf');
 unicode-range:U+203e,U+230a,U+2308,U+230b,U+2309,U+5350,U+534d,U+2217,U+2020,U+2302,U+2423,U+21b2,U+21c5,U+21c4,U+21d2,U+21e4,U+21e5,U+21c8,U+21ca,U+2220,U+221a,U+221b,U+221c,U+2300,U+b1,U+2213,U+214b,U+33,U+2610-2612,U+2715,U+24ea,U+2460-2473,U+3251-325f,U+32b1-32bf;
 size-adjust:100.9%;
 }
 @font-face {
 font-family:Bomber TV;
-src:url('/files/fonts/BomberTV.otf');
+src:url('/directories/files/fonts/BomberTV.otf');
 }
 @font-face {
 font-family:Noto Emoji;
-src:url('/files/fonts/NotoEmoji.ttf');
+src:url('/directories/files/fonts/NotoEmoji.ttf');
 unicode-range:U+2734,U+2139,U+2b05,U+2b06,U+2b07,U+27a1,U+271d,U+2626,U+1FAC0;
 }
 @font-face {
 font-family:Noto Sans Japanese;
-src:url('/files/fonts/NotoSansJP.otf');
+src:url('/directories/files/fonts/NotoSansJP.otf');
 unicode-range:U+2042,U+2295,U+2488-249b,U+24d8;
 }
 @font-face {
 font-family:Bandera Pro;
-src:url('/files/fonts/BanderaPro.ttf');
+src:url('/directories/files/fonts/BanderaPro.ttf');
 unicode-range:U+43,U+53,U+56,U+57,U+58,U+5a,U+39e;
 size-adjust:112%;
 }
