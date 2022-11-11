@@ -32,8 +32,8 @@ hc {display:block;text-align:center;font-size:200%}
 tac {display:block;text-align:center}
 .tac,[class=tac] td {text-align:center}
 tar {display:block;text-align:right}
-tab {background-color:rgba(37,37,37,.4);border-radius:3px;white-space:pre;display:block;overflow:scroll}
-tai {background-color:rgba(37,37,37,.4);border-radius:3px;white-space:pre;display:inline}
+tab {user-select:all;background-color:rgba(37,37,37,.4);border-radius:3px;white-space:pre;display:block;overflow:scroll}
+tai {user-select:all;background-color:rgba(37,37,37,.4);border-radius:3px;white-space:pre;display:inline}
 red {color:red}
 blu {color:blue}
 bla {color:black}
