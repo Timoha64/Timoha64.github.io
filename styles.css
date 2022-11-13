@@ -9,7 +9,7 @@ tx8 {transform:translateX(-8px);display:inline-block}
 hr {border:1px solid black}
 table {border-collapse:collapse;display:block;overflow:scroll}
 td {white-space:nowrap;border:1px solid black}
-th {background-color:#F7EBDB;text-align:center;font-weight:normal}
+th {background-color:#F7EBDB;text-align:center;font-weight:normal;border:1px solid black}
 :target {background-color:rgba(221,68,204,.5)}
 a {text-underline-position:under}
 details summary::before {content:"Показать:[";font-style:italic}
