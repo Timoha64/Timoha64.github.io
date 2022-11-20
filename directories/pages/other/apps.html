@@ -8,13 +8,14 @@
 
 </head><body>
 <script type="text/tikz">
-\usetikzlibrary {graphs,graphdrawing}\usegdlibrary {layered}
-\tikz \graph [trie, simple, layered layout,
-typeset=\tikzgraphnodefullname] {
-a -> b -> a,
-a -> b -> c,
-a -> {d,a}
+\begin{tikzpicture}
+\node {root}
+child {node {left}}
+child {node {right}
+child {node {child}}
+child {node {child}}
 };
+\end{tikzpicture}
 </script>
 <br><br><br>
 Основное:
