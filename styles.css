@@ -21,9 +21,9 @@ bom {font-family:Bomber TV;font-variant-caps:small-caps}
 ou {font-family:Outfit}
 bo {font-weight:bold}
 it {font-style:italic}
-un {text-decoration:underline;text-underline-position:under}
-lt {text-decoration:line-through}
-ov {text-decoration:overline}
+un {text-decoration-line:underline;text-underline-position:under}
+lt {text-decoration-line:line-through}
+ov {text-decoration-line:overline}
 subs {vertical-align:sub}
 sups {vertical-align:super}
 hl {font-size:200%}
