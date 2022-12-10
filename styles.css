@@ -47,8 +47,7 @@ toc {display:block;border:1px solid black;background-color:#F7EBDB;padding-top:7
 .fn {vertical-align:super;text-decoration:none;user-select:none}
 /* Маркированные списки (<ul>) */
 .mn,ul[class=mn] li {list-style-type:none}
-.md,ul[class=md] li {list-style-type:disc}
-.md2 ul li {list-style-type:disc}
+.md,ul[class=md] li,.md2 ul li {list-style-type:disc}
 .check,ul[class=check] li {list-style-type:"✓ "}
 .cross,ul[class=cross] li {list-style-type:"✕ "}
 .bb,ul[class=bb] li {list-style-type:"☐ "}
