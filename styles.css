@@ -24,8 +24,8 @@ it {font-style:italic}
 un {text-decoration-line:underline;text-underline-position:under}
 lt {text-decoration-line:line-through}
 ov {text-decoration-line:overline}
-subs {vertical-align:sub}
-sups {vertical-align:super}
+subs {vertical-align:sub;font-size:70%}
+sups {vertical-align:super;font-size:70%}
 hl {font-size:200%}
 hc {display:block;text-align:center;font-size:200%}
 tac {display:block;text-align:center}
