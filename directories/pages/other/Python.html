@@ -15,23 +15,17 @@ for i in range(10):
         continue
     print(i)
 █████████████████
-print("Сколько чисел Вы будете вводить?")
-n=int(input())
-if 0&lt;n:
-	print("Введите числа:")
-	for J in range(n):
-		x=float(input())
-		if J==0:
-			min=max=x
-			continue
-		if x&gt;max:
-			max=x
-		if x&lt;min:
-			min=x
-	print("Наименьшее:", min)
-	print("Наибольшее:", max)
-else:
-	print("Введите натуральное число")
+print("Вводите числа, а затем введите «Go», чтобы вывести наименьшее и наибольшее из них")
+x=min=max=float(input())
+while x!="Go":
+	x=float(x)
+	if x&gt;max:
+		max=x
+	if x&lt;min:
+		min=x
+	x=input()
+print("Наименьшее:", min)
+print("Наибольшее:", max)
 █████████████████
 print("Вводите числа, а затем введите «Go», чтобы посчитать их среднее арифметическое")
 a=float(input())
