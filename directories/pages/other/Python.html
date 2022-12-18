@@ -1,4 +1,126 @@
 <!DOCTYPE html><html translate="no"><head><meta name="viewport" content="width=device-width, initial-scale=1"><meta charset="utf-8">
 </head><body style="white-space:pre">
-
+<tab>"""
+a=int(input("Введите целое число, чтобы разбить его на цифры: "))
+if a&lt;0:
+	a*=-1
+for b in reversed(range(1, len(str(a))+1)):
+	print(a%10**b//10**(b-1))
+█████████████████
+for i in range(10):
+    if i % 3 == 0:
+        continue
+    print(i)
+█████████████████
+print("Сколько чисел Вы будете вводить?")
+n=int(input())
+if 0&lt;n:
+	print("Введите числа:")
+	for J in range(n):
+		x=float(input())
+		if J==0:
+			min=max=x
+			continue
+		if x&gt;max:
+			max=x
+		if x&lt;min:
+			min=x
+	print("Наименьшее:", min)
+	print("Наибольшее:", max)
+else:
+	print("Введите натуральное число")
+█████████████████
+print("Программа считает среднее арифметическое вводимых чисел до тех пор, пока не будет введено 0")
+a=float(input())
+b=c=0
+while a!=0:
+	b+=a
+	a=float(input())
+	c+=1
+print(b/c)
+█████████████████
+print("Найти произведение целых нечётных чисел в промежутке [m;n], где m и n – целые числа")
+m=int(input("m="))
+n=int(input("n="))
+if m%2==0:
+	m+=1
+if n%2==0:
+	n-=1
+x=1
+for J in range(m, n+1, 2):
+	x*=J
+print(x)
+█████████████████
+print("Сколько чисел Фибоначчи вы хотите вывести?")
+J=int(input())
+if J&gt;0:
+	print("Вывод:")
+	n=0
+	m=1
+	for x in range(J):
+		print(n)
+		m+=n
+		n=m-n
+else:
+	print("Введите натуральное число")
+█████████████████
+print("Введите 3 измерения длин сторон треугольника")
+a=float(input("a="))
+b=float(input("b="))
+c=float(input("c="))
+if a+b&lt;=c or a+c&lt;=b or b+c&lt;=a:
+	print("Такой треугольник не существует")
+elif a==b==c:
+	print("Такой треугольник равносторонний")
+elif a==b or b==c or c==a:
+	print("Такой треугольник равнобедренный")
+elif a!=b and b!=c and a!=c:
+	print("Такой треугольник разносторонний")
+if a+b&gt;c and a+c&gt;b and b+c&gt;a:
+	print("P =", a+b+c)
+	print("S =", (((a+b+c)/2)*((a+b+c)/2-a)*((a+b+c)/2-b)*((a+b+c)/2-c))**0.5)
+if a!=b and b!=c and a!=c:
+	if a&lt;b and a&lt;c:
+		наим=a
+	elif b&lt;a and b&lt;c:
+		наим=b
+	elif c&lt;a and c&lt;b:
+		наим=c
+	if b&lt;a&lt;c or b&gt;a&gt;c:
+		сред=a
+	elif a&lt;b&lt;c or a&gt;b&gt;c:
+		сред=b
+	elif a&lt;c&lt;b or a&gt;c&gt;b:
+		сред=c
+	if a&gt;b and a&gt;c:
+		наиб=a
+	elif b&gt;a and b&gt;c:
+		наиб=b
+	elif c&gt;a and c&gt;b:
+		наиб=c
+	a=наим
+	b=сред
+	c=наиб
+	if a%3==0 and b%4==0 and c%5==0:
+		print("Египетский треугольник")
+█████████████████
+print("Сколько чисел Вы будете вводить?")
+n=int(input())
+if 0&lt;n&lt;1001:
+	print("Введите целые числа (макс. знач. по модулю – 30000):")
+	J=0
+	for x in range(1, n+1):
+		a=int(input())
+		if a&lt;0:
+			a*=-1
+		if a&gt;30000:
+			print("Недопустимое значение")
+			break
+		if a%6==0 and a%10==4:
+			J+=1
+	if x==n:
+		print("Ко­ли­че­ство чисел, крат­ных 6 и окан­чи­ва­ю­щих­ся на 4:", J)
+else:
+	print("Введите натуральное число, не превышающее 1000")
+"""</tab>
 </body></html>
