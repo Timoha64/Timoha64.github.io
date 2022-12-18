@@ -27,14 +27,19 @@
 <br><br>
 Мои контакты: <a href="https://vk.com/timoha64campfire">ВК</a>, <a href="https://campfire.moe/account/Timoha64">Campfire Web</a>, <a href="https://www.youtube.com/@timoha64campfire">Ютуб канал</a>.
 <tar><it>To be a <a style="text-decoration-line:none;color:black" href="https://campfire.moe/post/4871842">rock</a> and not to roll</it></tar>
-<input type="text" value="Hello World" id="myInput">
-<button onclick="myFunction()">Copy text</button>
+<input id="inputText" type="text" value="A miss is as good as a mile">
+<button id="copyText">Copy</button>
 <script>
-function myFunction() {
-  var copyText = document.getElementById("myInput");
-  copyText.select();
+/* сохраняем текстовое поле в переменную text */
+var text = document.getElementById("inputText");
+
+/* сохраняем кнопку в переменную btn */
+var btn = document.getElementById("copyText");
+
+/* вызываем функцию при нажатии на кнопку */
+btn.onclick = function() {
+  text.select();    
   document.execCommand("copy");
-  alert("Copied the text: " + copyText.value);
 }
 </script>
 </body></html>
