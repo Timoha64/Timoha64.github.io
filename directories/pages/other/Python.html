@@ -3,5 +3,110 @@
 <link rel="icon" href="/directories/files/pages-icons/.png">
 <meta name="theme-color" content="#">
 </head><body>
-
+"""
+a=int(input("Введите целое число, чтобы разбить его на цифры: "))
+if a<0:
+	a*=-1
+for b in reversed(range(1, len(str(a))+1)):
+	print(a%10**b//10**(b-1))
+█████████████████
+for i in range(10):
+    if i % 3 == 0:
+        continue
+    print(i)
+█████████████████
+print("Программа считает среднее арифметическое вводимых чисел до тех пор, пока не будет введено 0")
+a=float(input())
+b=c=0
+while a!=0:
+	b+=a
+	a=float(input())
+	c+=1
+print(b/c)
+█████████████████
+print("Найти произведение целых нечётных чисел в промежутке [m;n], где m и n – целые числа")
+m=int(input("m="))
+n=int(input("n="))
+if m%2==0:
+	m+=1
+if n%2==0:
+	n-=1
+x=1
+for J in range(m, n+1, 2):
+	x*=J
+print(x)
+█████████████████
+print("Сколько чисел Фибоначчи вы хотите вывести?")
+J=int(input())
+if J>0:
+	print("Вывод:")
+	n=0
+	m=1
+	for x in range(J):
+		print(n)
+		m+=n
+		n=m-n
+else:
+	print("Введите натуральное число")
+█████████████████
+print("Введите 3 измерения длин сторон треугольника")
+a=float(input("a="))
+b=float(input("b="))
+c=float(input("c="))
+if a+b<=c or a+c<=b or b+c<=a:
+	print("Такой треугольник не существует")
+elif a==b==c:
+	print("Такой треугольник равносторонний")
+elif a==b or b==c or c==a:
+	print("Такой треугольник равнобедренный")
+elif a!=b and b!=c and a!=c:
+	print("Такой треугольник разносторонний")
+if a+b>c and a+c>b and b+c>a:
+	print("P =", a+b+c)
+	print("S =", (((a+b+c)/2)*((a+b+c)/2-a)*((a+b+c)/2-b)*((a+b+c)/2-c))**0.5)
+if a!=b and b!=c and a!=c:
+	if a<b and a<c:
+		наим=a
+	elif b<a and b<c:
+		наим=b
+	elif c<a and c<b:
+		наим=c
+	if b<a<c or b>a>c:
+		сред=a
+	elif a<b<c or a>b>c:
+		сред=b
+	elif a<c<b or a>c>b:
+		сред=c
+	if a>b and a>c:
+		наиб=a
+	elif b>a and b>c:
+		наиб=b
+	elif c>a and c>b:
+		наиб=c
+	a=наим
+	b=сред
+	c=наиб
+	if a%3==0 and b%4==0 and c%5==0:
+		print("Египетский треугольник")
+█████████████████
+print("Сколько чисел Вы будете вводить?")
+n=int(input())
+if 0<n<1001:
+	print("Введите целые числа (макс. знач. по модулю – 30000):")
+	J=0
+	for x in range(1, n+1):
+		a=int(input())
+		if a<0:
+			a*=-1
+		if a>30000:
+			print("Недопустимое значение")
+			break
+		else:
+			if a%6==0 and a%10==4:
+				J+=1
+	if x==n:
+		print("Ко­ли­че­ство чисел, крат­ных 6 и окан­чи­ва­ю­щих­ся на 4:", J)
+else:
+	print("Введите натуральное число, не превышающее 1000")
+"""
 </body></html>
