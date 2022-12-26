@@ -16,6 +16,8 @@ details summary::after {content:"]";font-style:italic}
 details summary {list-style-type:"\27A1"}
 details[open] summary {list-style-type:"\2B07"}
 bu,.bu {user-select:none;background-color:#FFC107;padding:5px;border-radius:5px;display:inline-block;text-decoration:none;color:black;cursor:pointer}
+bf {display:inline-block;border:1px solid black}
+rf {display:inline-block;border:1px solid red;padding:1px}
 sq {font-family:square}
 bom {font-family:Bomber TV;font-variant-caps:small-caps}
 ou {font-family:Outfit}
