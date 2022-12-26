@@ -30,6 +30,7 @@ subs {vertical-align:sub;font-size:70%}
 sups {vertical-align:super;font-size:70%}
 hl {font-size:200%}
 hc {display:block;text-align:center;font-size:200%}
+hc2 {display:block;text-align:center;font-size:150%}
 tac {display:block;text-align:center}
 .tac,[class=tac] td {text-align:center}
 tar {display:block;text-align:right}
