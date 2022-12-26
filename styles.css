@@ -28,7 +28,7 @@ lt {text-decoration-line:line-through}
 ov {text-decoration-line:overline}
 subs {vertical-align:sub;font-size:70%}
 sups {vertical-align:super;font-size:70%}
-hl {font-size:200%}
+hl,.h {font-size:200%}
 hc {display:block;text-align:center;font-size:200%}
 hc2 {display:block;text-align:center;font-size:150%}
 tac {display:block;text-align:center}
