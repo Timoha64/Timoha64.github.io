@@ -26,9 +26,9 @@ try:
 	x=min=max=float(input())
 	while x!="Go":
 		x=float(x)
-		if x>max:
+		if x&gt;max:
 			max=x
-		if x<min:
+		if x&lt;min:
 			min=x
 		x=input()
 	print(f"Наименьшее: {min}\nНаибольшее: {max}")
@@ -65,7 +65,7 @@ except ValueError:
 try:
 	print("Сколько чисел Фибоначчи вы хотите вывести?")
 	J=int(input())
-	if J>0:
+	if J&gt;0:
 		print("Вывод:")
 		n=0
 		m=1
@@ -83,7 +83,7 @@ try:
 	a=float(input("a="))
 	b=float(input("b="))
 	c=float(input("c="))
-	if a+b<=c or a+c<=b or b+c<=a:
+	if a+b&lt;=c or a+c&lt;=b or b+c&lt;=a:
 		print("Такой треугольник не существует")
 	elif a==b==c:
 		print("Такой треугольник равносторонний")
@@ -91,27 +91,27 @@ try:
 		print("Такой треугольник равнобедренный")
 	elif a!=b and b!=c and a!=c:
 		print("Такой треугольник разносторонний")
-	if a+b>c and a+c>b and b+c>a:
+	if a+b&gt;c and a+c&gt;b and b+c&gt;a:
 		print("P =", a+b+c)
 		print("S =", (((a+b+c)/2)*((a+b+c)/2-a)*((a+b+c)/2-b)*((a+b+c)/2-c))**0.5)
 	if a!=b and b!=c and a!=c:
-		if a<b and a<c:
+		if a&lt;b and a&lt;c:
 			J3=a
-		elif b<a and b<c:
+		elif b&lt;a and b&lt;c:
 			J3=b
-		elif c<a and c<b:
+		elif c&lt;a and c&lt;b:
 			J3=c
-		if b<a<c or b>a>c:
+		if b&lt;a&lt;c or b&gt;a&gt;c:
 			J4=a
-		elif a<b<c or a>b>c:
+		elif a&lt;b&lt;c or a&gt;b&gt;c:
 			J4=b
-		elif a<c<b or a>c>b:
+		elif a&lt;c&lt;b or a&gt;c&gt;b:
 			J4=c
-		if a>b and a>c:
+		if a&gt;b and a&gt;c:
 			J5=a
-		elif b>a and b>c:
+		elif b&gt;a and b&gt;c:
 			J5=b
-		elif c>a and c>b:
+		elif c&gt;a and c&gt;b:
 			J5=c
 		a=J3
 		b=J4
