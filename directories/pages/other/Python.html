@@ -4,119 +4,121 @@
 <meta name="theme-color" content="#">
 </head><body>
 <tab>"""
-a=int(input("Введите целое число, чтобы разбить его на цифры: "))
-if a&lt;0:
-	a*=-1
-for b in reversed(range(1, len(str(a))+1)):
-	print(a%10**b//10**(b-1), end=" ")
+try:
+	a=float(input("Введите число, чтобы разбить его на цифры: "))
+	b=list(str(a))
+	for J in range(0, len(b)):
+		try:
+			c=int(b[J])
+			print(c, end=" ")
+		except ValueError:
+			continue
+except ValueError:
+	print("Недопустимое значение")
 █████████████████
-for i in range(10):
-    if i % 3 == 0:
-        continue
-    print(i)
+for J in range(10):
+	if J%3==0:
+		continue
+	print(J)
 █████████████████
-print("Вводите числа, а затем введите «Go», чтобы вывести наименьшее и наибольшее из них")
-x=min=max=float(input())
-while x!="Go":
-	x=float(x)
-	if x&gt;max:
-		max=x
-	if x&lt;min:
-		min=x
-	x=input()
-print(f"Наименьшее: {min}\nНаибольшее: {max}")
+try:
+	print("Вводите числа, а затем введите «Go», чтобы вывести наименьшее и наибольшее из них")
+	x=min=max=float(input())
+	while x!="Go":
+		x=float(x)
+		if x>max:
+			max=x
+		if x<min:
+			min=x
+		x=input()
+	print(f"Наименьшее: {min}\nНаибольшее: {max}")
+except ValueError:
+	print("Недопустимое значение")
 █████████████████
-print("Вводите числа, а затем введите «Go», чтобы посчитать их среднее арифметическое")
-a=float(input())
-b=c=0
-while a!="Go":
-	b+=float(a)
-	a=input()
-	c+=1
-print(b/c)
+try:
+	print("Вводите числа, а затем введите «Go», чтобы посчитать их среднее арифметическое")
+	a=float(input())
+	b=c=0
+	while a!="Go":
+		b+=float(a)
+		a=input()
+		c+=1
+	print(b/c)
+except ValueError:
+	print("Недопустимое значение")
 █████████████████
-print("Найти произведение целых нечётных чисел в промежутке [m;n], где m и n – целые числа")
-m=int(input("m="))
-n=int(input("n="))
-if m%2==0:
-	m+=1
-if n%2==0:
-	n-=1
-x=1
-for J in range(m, n+1, 2):
-	x*=J
-print(x)
+try:
+	print("Найти произведение целых нечётных чисел в промежутке [m;n]")
+	m=int(input("m="))
+	n=int(input("n="))
+	if m%2==0:
+		m+=1
+	if n%2==0:
+		n-=1
+	x=1
+	for J in range(m, n+1, 2):
+		x*=J
+	print(x)
+except ValueError:
+	print("Недопустимое значение")
 █████████████████
-print("Сколько чисел Фибоначчи вы хотите вывести?")
-J=int(input())
-if J&gt;0:
-	print("Вывод:")
-	n=0
-	m=1
-	for x in range(J):
-		print(n, end=" ")
-		m+=n
-		n=m-n
-else:
-	print("Введите натуральное число")
+try:
+	print("Сколько чисел Фибоначчи вы хотите вывести?")
+	J=int(input())
+	if J>0:
+		print("Вывод:")
+		n=0
+		m=1
+		for x in range(J):
+			print(n)
+			m+=n
+			n=m-n
+	else:
+		print("Введите натуральное число")
+except ValueError:
+	print("Недопустимое значение")
 █████████████████
-print("Введите 3 измерения длин сторон треугольника")
-a=float(input("a="))
-b=float(input("b="))
-c=float(input("c="))
-if a+b&lt;=c or a+c&lt;=b or b+c&lt;=a:
-	print("Такой треугольник не существует")
-elif a==b==c:
-	print("Такой треугольник равносторонний")
-elif a==b or b==c or c==a:
-	print("Такой треугольник равнобедренный")
-elif a!=b and b!=c and a!=c:
-	print("Такой треугольник разносторонний")
-if a+b&gt;c and a+c&gt;b and b+c&gt;a:
-	print("P =", a+b+c)
-	print("S =", (((a+b+c)/2)*((a+b+c)/2-a)*((a+b+c)/2-b)*((a+b+c)/2-c))**0.5)
-if a!=b and b!=c and a!=c:
-	if a&lt;b and a&lt;c:
-		наим=a
-	elif b&lt;a and b&lt;c:
-		наим=b
-	elif c&lt;a and c&lt;b:
-		наим=c
-	if b&lt;a&lt;c or b&gt;a&gt;c:
-		сред=a
-	elif a&lt;b&lt;c or a&gt;b&gt;c:
-		сред=b
-	elif a&lt;c&lt;b or a&gt;c&gt;b:
-		сред=c
-	if a&gt;b and a&gt;c:
-		наиб=a
-	elif b&gt;a and b&gt;c:
-		наиб=b
-	elif c&gt;a and c&gt;b:
-		наиб=c
-	a=наим
-	b=сред
-	c=наиб
-	if a%3==0 and b%4==0 and c%5==0:
-		print("Египетский треугольник")
-█████████████████
-print("Сколько чисел Вы будете вводить?")
-n=int(input())
-if 0&lt;n&lt;1001:
-	print("Введите целые числа (макс. знач. по модулю – 30000):")
-	J=0
-	for x in range(1, n+1):
-		a=int(input())
-		if a&lt;0:
-			a*=-1
-		if a&gt;30000:
-			print("Недопустимое значение")
-			break
-		if a%6==0 and a%10==4:
-			J+=1
-	if x==n:
-		print("Ко­ли­че­ство чисел, крат­ных 6 и окан­чи­ва­ю­щих­ся на 4:", J)
-else:
-	print("Введите натуральное число, не превышающее 1000")
+try:
+	print("Введите 3 измерения длин сторон треугольника")
+	a=float(input("a="))
+	b=float(input("b="))
+	c=float(input("c="))
+	if a+b<=c or a+c<=b or b+c<=a:
+		print("Такой треугольник не существует")
+	elif a==b==c:
+		print("Такой треугольник равносторонний")
+	elif a==b or b==c or c==a:
+		print("Такой треугольник равнобедренный")
+	elif a!=b and b!=c and a!=c:
+		print("Такой треугольник разносторонний")
+	if a+b>c and a+c>b and b+c>a:
+		print("P =", a+b+c)
+		print("S =", (((a+b+c)/2)*((a+b+c)/2-a)*((a+b+c)/2-b)*((a+b+c)/2-c))**0.5)
+	if a!=b and b!=c and a!=c:
+		if a<b and a<c:
+			J3=a
+		elif b<a and b<c:
+			J3=b
+		elif c<a and c<b:
+			J3=c
+		if b<a<c or b>a>c:
+			J4=a
+		elif a<b<c or a>b>c:
+			J4=b
+		elif a<c<b or a>c>b:
+			J4=c
+		if a>b and a>c:
+			J5=a
+		elif b>a and b>c:
+			J5=b
+		elif c>a and c>b:
+			J5=c
+		a=J3
+		b=J4
+		c=J5
+		if a%3==0 and b%4==0 and c%5==0:
+			print("Египетский треугольник")
+except ValueError:
+	print("Недопустимое значение")
 """</tab>
 </body></html>
