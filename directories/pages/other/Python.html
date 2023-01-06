@@ -147,5 +147,77 @@ try:
 		print("Недопустимое значение")
 except ValueError:
 	print("Недопустимое значение")
+█████████████████
+import random
+print("Привет! Это игра на удачу. Чтобы её пройти, нужно набрать 500 монет.")
+coins=10
+diamonds=gifts=0
+while 0&lt;coins&lt;500 or diamonds&gt;9 or gifts&gt;0:
+	print(f"Ваш баланс: {coins}🪙 {diamonds}💎 {gifts}🎁\nДоступные команды:")
+	if coins&gt;0:
+		print("«1» Играть за одну монету")
+	if diamonds&gt;9:
+		print("«2» Продать алмазы (10💎=50🪙)")
+	if gifts&gt;0:
+		print("«3» Открыть подарок")
+	launch=input()
+	if launch=="1" and coins&gt;0:
+		coins-=1
+		a=random.randint(1, 3)
+		b=random.randint(1, 3)
+		c=random.randint(1, 3)
+		Rdiamonds=random.randint(1, 10)
+		Rgifts=random.randint(1, 100)
+		if not(a==b==c) and not(Rdiamonds==1) and not(Rgifts==1):
+			print("Вы ничего не выиграли")
+		else:
+			print("Вы выиграли:")
+			if a==b==c:
+				coins+=7
+				print("7🪙")
+			if Rdiamonds==1:
+				diamonds+=1
+				print("1💎")
+			if Rgifts==1:
+				gifts+=1
+				print("1🎁")
+	elif launch=="1" and not(coins&gt;0):
+		print("Команда недоступна")
+	elif launch=="2" and diamonds&gt;9:
+		coins+=(diamonds//10)*50
+		diamonds%=10
+		print("Алмазы успешно проданы")
+	elif launch=="2" and not(diamonds&gt;9):
+		print("Команда недоступна")
+	elif launch=="3" and gifts&gt;0:
+		gifts-=1
+		open=random.randint(1, 100)
+		print("Вы получили:")
+		if open&lt;=40: #40%
+			coins+=10
+			print("10🪙")
+		elif 41&lt;=open&lt;=80: #40%
+			diamonds+=5
+			print("5💎")
+		elif 81&lt;=open&lt;=89: #9%
+			coins+=50
+			print("50🪙")
+		elif 90&lt;=open&lt;=98: #9%
+			diamonds+=25
+			print("25💎")
+		elif open==99: #1%
+			gifts+=2
+			print("2🎁")
+		elif open==100: #1%
+			print("💣\nВам выпала бомба. −100🪙")
+			coins-=100
+	elif launch=="3" and not(gifts&gt;0):
+		print("Команда недоступна")
+	else:
+		print("Неизвестная команда. Используйте цифры 1, 2 и 3.")
+if coins&gt;=500:
+	print(f"Ваш баланс: {coins}🪙 {diamonds}💎 {gifts}🎁\nВы прошли игру")
+else:
+	print(f"Ваш баланс: {coins}🪙 {diamonds}💎 {gifts}🎁\nGAME OVER")
 """</tab>
 </body></html>
