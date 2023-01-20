@@ -223,5 +223,16 @@ inp=input()
 shuffle=random.sample(inp, len(inp))
 for J in shuffle:
 	print(J, end="")
+█████████████████
+try:
+	number=str(input("Введите целое число: "))
+	base=int(input("Каково основание системы счисления введённого числа? (минимум – 2, максимум – 36)\n"))
+	dec=int(number, base)
+	bin=bin(dec)
+	oct=oct(dec)
+	hex=hex(dec)
+	print(f"2СС: {bin}\n8СС: {oct}\n10СС: {dec}\n16СС: {hex}")
+except ValueError:
+	print("Недопустимое значение")
 """</tab>
 </body></html>
