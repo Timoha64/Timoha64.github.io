@@ -197,5 +197,19 @@
 <br>
 <tai>-11</tai> — декомпиляция. Создаёт папку jbak2Keyboard/keyboards/res, куда помещаются xml файлы всех встроенных раскладок. <span style="color:#0000AA">Примечание:</span> этот код работает только через главное меню (код -500).
 <hc2>KeyEvent.KEYCODE</hc2>
+Существует специальный вид значения:
+-5x
+где {55FFFF x} – значение [Constant Value]https://developer.android.com/reference/android/view/KeyEvent.html?hl=ru
+Примеры:
+⒈ Клавиша CTRL
+Key code constant: Left Control modifier key.
+
+Constant Value: 113 (0x00000071)
+Значит, значение будет {55FFFF -5113}
+⒉ Буква a
+Key code constant: 'A' key.
+Constant Value: 29 (0x0000001d)
+Значит, значение будет {55FFFF -5029}
 <hc2><tai>0</tai> – код пустой операции</hc2>
+По ней ничего не делается. Иногда бывает необходима в ваших конструкциях, чтобы желаемое заработало как требуется.
 </body></html>
