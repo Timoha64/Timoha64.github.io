@@ -84,34 +84,13 @@
 </td>
 </tr>
 </table>
+Например, код
+android:keyIcon="@drawable/sym_keyboard_space"
+отобразит на клавише иконку пробела.
 <hc>Внешние иконки</hc>
 <wspl>
 Атрибут android:keyIcon может [ссылаться]@wikiarticle_2796 на файлы изображений. Рекомендуется использовать формат png, т.к. он поддерживает прозрачность, но также можно использовать форматы jpg и jpeg. Форматы svg и gif использовать нельзя.
 
-Помимо этого можно использовать встроенные иконки с помощью следующего кода:
-@drawable/sym_keyboard_A
-где {55FFFF A} – одно из специальных значений:
-• {55FFFF forward_del}
-Клавиша Delete ([код]@wikiarticle_2822 -601).
-Аналог – {55FFFF android:keyLabel="$f#ɕ"}.
-• {55FFFF delete}
-Клавиша Backspace (код -5).
-Аналог – {55FFFF android:keyLabel="$f#ɔ"}.
-• {55FFFF done}
-Закрыть клавиатуру (код -3).
-Аналог – {55FFFF android:keyLabel="$f#ɗ"}.
-• {55FFFF return}
-Клавиша Enter (код 10).
-Аналог – {55FFFF android:keyLabel="$f#ɠ\n$f#ɜ"}.
-• {55FFFF shift}
-Клавиша Shift (код -1).
-Аналог – {55FFFF android:keyLabel="$f#ɤ\n$f#ɡ"}.
-• {55FFFF space}
-Пробел (код 32).
-Аналог – {55FFFF android:keyLabel="$f#ɝ"}.
-Например, код
-android:keyIcon="@drawable/sym_keyboard_space"
-отобразит на клавише иконку пробела.
 Цвет ваших иконок
 Итак, рекомендовано, чтобы все ваши изображения иконок были в формате png, на прозрачном фоне.
 
