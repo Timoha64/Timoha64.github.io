@@ -73,9 +73,8 @@ toc {display:block;border:1px solid black;background-color:#F7EBDB;padding-top:7
 /* Шрифты */
 @font-face {
 font-family:MADE Likes Script;
-src:url('/directories/files/fonts/MADELikesScript.otf');
+src:url('/directories/files/fonts/akbaal.ttf');
 unicode-range:U+4f;
-font-weight:900;
 /* size-adjust:105.4%; */
 }
 @font-face {
