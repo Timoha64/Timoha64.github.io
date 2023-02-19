@@ -72,6 +72,12 @@ toc {display:block;border:1px solid black;background-color:#F7EBDB;padding-top:7
 .ma li {list-style-position:inside}
 /* Шрифты */
 @font-face {
+font-family:MADE Likes Script;
+src:url('/directories/files/fonts/MADELikesScript.otf');
+unicode-range:U+4f;
+/* size-adjust:105.4%; */
+}
+@font-face {
 font-family:Outfit;
 src:url('/directories/files/fonts/Outfit.ttf');
 size-adjust:105%;
