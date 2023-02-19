@@ -1,7 +1,7 @@
 /* Подключение:
 <link rel="stylesheet" href="/styles.css">
 */
-body,chem .katex {font-family:Bandera Pro,Fira Code,Fira Code I,"Exo 2",Source Sans Pro,Noto Emoji,"M PLUS 1p",Noto Sans Japanese,Inter}
+body,chem .katex {font-family:MADE Likes Script,Bandera Pro,Fira Code,Fira Code I,"Exo 2",Source Sans Pro,Noto Emoji,"M PLUS 1p",Noto Sans Japanese,Inter}
 body {word-break:break-word}
 hr {border:1px solid black}
 table {border-collapse:collapse;display:block;overflow:scroll}
