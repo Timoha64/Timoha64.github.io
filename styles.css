@@ -43,7 +43,7 @@ deg270 {transform:rotate(270deg);display:inline-block}
 mi {transform:scaleX(-1);display:inline-block}
 .it {height:2ex;vertical-align:middle}
 ti {text-indent:30px;display:inline-block}
-wspl,.wspl {white-space:pre-line}
+wspl,.wspl,[class=wspl] td {white-space:pre-line}
 nw {white-space:nowrap}
 .vat,[class=vat] td {vertical-align:top}
 toc {display:block;border:1px solid black;background-color:#F7EBDB;padding-top:7px;padding-bottom:7px}
