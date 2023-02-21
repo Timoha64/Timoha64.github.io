@@ -23,15 +23,14 @@ for J in range(10):
 █████████████████
 try:
 	print("Вводите числа, а затем введите «Go», чтобы вывести наименьшее и наибольшее из них")
-	x=min=max=float(input())
-	while x!="Go":
-		x=float(x)
-		if x&gt;max:
-			max=x
-		if x&lt;min:
-			min=x
-		x=input()
-	print(f"Наименьшее: {min}\nНаибольшее: {max}")
+	ℓ=[]
+	inp=float(input())
+	ℓ.append(inp)
+	while inp!="Go":
+		inp=float(inp)
+		ℓ.append(inp)
+		inp=input()
+	print(f"min={min(ℓ)}, max={max(ℓ)}")
 except ValueError:
 	print("Недопустимое значение")
 █████████████████
