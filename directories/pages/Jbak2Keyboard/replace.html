@@ -38,16 +38,13 @@
 </ul>
 Пример:
 <br>
-
-<wspl>
-
 В xml файле раскладки находится код <tai>&lt;includeReplace file="Замены.txt" /&gt;</tai>. Содержимое файла <tai>Замены.txt</tai>:
-
-&lt;Replace from="bb" to="abc"/&gt;
+<tab>&lt;Replace from="bb" to="abc"/&gt;
 &lt;Replace from="oc" to="?"/&gt;
 &lt;Replace from="ss" to="§"/&gt;
 &lt;Replace from="pp" to="zzz"/&gt;
-
+</tab>
+<wspl>
 Принципы работы
 
 ⒈ В xml файле раскладки теги &lt;Replace /&gt; и &lt;includeReplace /&gt; должны быть расположены между последним тегом &lt;/Row&gt; и тегом &lt;/Keyboard&gt;. В промежутке же этом вы можете располагать данные теги в любом порядке.
