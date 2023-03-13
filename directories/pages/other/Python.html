@@ -36,13 +36,12 @@ except ValueError:
 █████████████████
 try:
 	print("Вводите числа, а затем введите «Go», чтобы посчитать их среднее арифметическое")
+	ℓ=[]
 	a=float(input())
-	b=c=0
 	while a!="Go":
-		b+=float(a)
+		ℓ.append(float(a))
 		a=input()
-		c+=1
-	print(b/c)
+	print(sum(ℓ)/len(ℓ))
 except ValueError:
 	print("Недопустимое значение")
 █████████████████
