@@ -45,21 +45,6 @@ try:
 except ValueError:
  print("Недопустимое значение")
 █████████████████
-try:
- print("Найти произведение целых нечётных чисел в промежутке [m;n]")
- m=int(input("m="))
- n=int(input("n="))
- if m%2==0:
-  m+=1
- if n%2==0:
-  n-=1
- x=1
- for J in range(m, n+1, 2):
-  x*=J
- print(x)
-except ValueError:
- print("Недопустимое значение")
-█████████████████
 print("Сколько чисел Фибоначчи вы хотите вывести?")
 seq=[1,1]
 try:
@@ -143,6 +128,21 @@ try:
     print(f"{J}/{c}={J/c}")
  else:
   print("Недопустимое значение")
+except ValueError:
+ print("Недопустимое значение")
+█████████████████
+try:
+ print("Найти произведение целых нечётных чисел в промежутке [m;n]")
+ m=int(input("m="))
+ n=int(input("n="))
+ if m%2==0:
+  m+=1
+ if n%2==0:
+  n-=1
+ x=1
+ for J in range(m, n+1, 2):
+  x*=J
+ print(x)
 except ValueError:
  print("Недопустимое значение")
 █████████████████
