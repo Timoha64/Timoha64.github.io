@@ -45,6 +45,31 @@ try:
 except ValueError:
  print("Недопустимое значение")
 █████████████████
+print("Вводите натуральные числа, а затем введите «Go»")
+try:
+ a=int(input())
+ if a&gt;0:
+  ind=0
+  ℓ=[]
+  while a!="Go":
+   a=int(a)
+   if a&gt;0:
+    ℓ.append(a)
+    a=input()
+   else:
+    ind=1
+    print("Недопустимое значение")
+    break
+  if ind==0:
+   c=sum(ℓ)
+   print(f"Сумма введённых чисел: {c}\nДоля каждого введённого числа от их суммы:")
+   for J in ℓ:
+    print(f"{J}/{c}={J/c}")
+ else:
+  print("Недопустимое значение")
+except ValueError:
+ print("Недопустимое значение")
+█████████████████
 print("Сколько чисел Фибоначчи вы хотите вывести?")
 seq=[1,1]
 try:
@@ -103,31 +128,6 @@ try:
   c=J5
   if a%3==0 and b%4==0 and c%5==0:
    print("Египетский треугольник")
-except ValueError:
- print("Недопустимое значение")
-█████████████████
-print("Вводите натуральные числа, а затем введите «Go»")
-try:
- a=int(input())
- if a&gt;0:
-  ind=0
-  ℓ=[]
-  while a!="Go":
-   a=int(a)
-   if a&gt;0:
-    ℓ.append(a)
-    a=input()
-   else:
-    ind=1
-    print("Недопустимое значение")
-    break
-  if ind==0:
-   c=sum(ℓ)
-   print(f"Сумма введённых чисел: {c}\nДоля каждого введённого числа от их суммы:")
-   for J in ℓ:
-    print(f"{J}/{c}={J/c}")
- else:
-  print("Недопустимое значение")
 except ValueError:
  print("Недопустимое значение")
 █████████████████
