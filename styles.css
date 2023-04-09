@@ -11,7 +11,7 @@ th {white-space:nowrap;background-color:#F7EBDB;text-align:center;font-weight:no
 a {text-underline-position:under}
 ol,ul {padding-right:20px}
 .w100 {width:100%}
-min {vertical-align:super;font-size:70%;text-decoration-line:underline;text-underline-position:under}
+min {vertical-align:super;font-size:70%;text-decoration-line:underline}
 details summary::before {content:"Показать:[";font-style:italic}
 details[open] summary::before {content:"Скрыть:[";font-style:italic}
 details summary::after {content:"]";font-style:italic}
